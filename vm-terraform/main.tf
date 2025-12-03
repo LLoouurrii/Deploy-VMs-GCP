@@ -28,5 +28,6 @@ resource "google_compute_instance" "vm-type-raspberry-from-terraform" {
 
   network_interface {
     network = "default"
+    access_config {}
   }
 }
